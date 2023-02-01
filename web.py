@@ -10,9 +10,9 @@ def add_todo():
     functions.write_todos(todos)
 
 
-st.title("My Todo App")
-st.subheader("This is my todo app")
-st.write("This app is to increase your productivity.")
+st.title("Hello Lisa!")
+st.subheader("This is your todo app for your very busy life.")
+st.write("I know it doesn't look like much, but I made it myself - so there's that. /A")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
